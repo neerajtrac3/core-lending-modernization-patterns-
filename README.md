@@ -1,3 +1,28 @@
+# Core Lending Modernization Patterns
+
+Patterns, architectures, and domain models for modernizing core lending platforms.
+
+## Objectives
+
+- Describe AS-IS vs TO-BE architectures for lending
+- Provide integration and migration patterns
+- Define a canonical lending domain model
+- Capture modernization scenarios across lending products
+
+## Repository structure
+
+- `architecture/` – Core lending architecture and modernization roadmap
+- `patterns/` – Migration and integration patterns
+- `domain-models/` – Canonical models and glossary
+- `use-cases/` – Product-specific modernization scenarios
+
+## Target audience
+
+- Core banking and lending architects  
+- Modernization program leads  
+- Integration and platform teams
+
+
 ```mermaid
 flowchart LR
     subgraph DataSources[Banking Data Sources]
