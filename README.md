@@ -38,21 +38,5 @@ flowchart LR
 
     PF --> Eval
 
-'''
-
-## Key Features
-- Domain‑specific vocabulary
-- RAG‑enhanced retrieval
-- Prompt Flow integration
-- Evaluation metrics
-- Guardrail enforcement
-
-## Use Cases
-- Lending lifecycle automation
-- Payments exception handling
-- AML/KYC extraction
-
-## Repository Structure
-
 
 
