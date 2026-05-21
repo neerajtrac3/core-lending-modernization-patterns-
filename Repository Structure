@@ -1,0 +1,7 @@
+/patterns                → Modernization patterns and templates
+/taxonomy                → Modernization taxonomy and classification
+/decision-matrix         → Decision matrix models and scoring
+/lci                     → Legacy Complexity Index (LCI) framework
+/canonical-models        → Lending and customer canonical models
+/diagrams                → Architecture diagrams (Mermaid/PNG)
+/anti-patterns           → Modernization anti-patterns
