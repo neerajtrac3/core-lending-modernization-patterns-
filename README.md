@@ -38,7 +38,7 @@ flowchart LR
 
     PF --> Eval
 
-'''mermaid
+'''
 
 ## Key Features
 - Domain‑specific vocabulary
