@@ -1,5 +1,12 @@
-# core-lending-modernization-patterns-
-Enterprise modernization patterns, canonical models, and integration standards for lending transformation.
+# Core Lending Modernization Patterns
+
+This repository provides architectural patterns, modernization frameworks, and integration standards used in large‑scale lending transformation programs. The assets support the transition from legacy lending platforms to modular, cloud‑aligned, API‑driven architectures that improve scalability, auditability, and regulatory alignment.
+
+---
+
+## Modernization Architecture Overview
+
+```mermaid
 flowchart LR
     subgraph Channels
         DChannels[Digital Channels]
