@@ -64,7 +64,3 @@ flowchart LR
     PF --> Eval
 
 
-
-
-![Core Lending Modernization Reference](diagrams/core-lending-modernization-reference.png)
-
