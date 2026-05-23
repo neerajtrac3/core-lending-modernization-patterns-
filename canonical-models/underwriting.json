@@ -1,0 +1,9 @@
+{
+  "loanId": "string",
+  "customerId": "string",
+  "creditScore": "number",
+  "fraudScore": "number",
+  "dtiRatio": "number",
+  "decision": "Approved | Declined | ManualReview",
+  "decisionTimestamp": "string (ISO-8601)"
+}
