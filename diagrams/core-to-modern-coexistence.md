@@ -63,3 +63,18 @@ flowchart LR
     class C1,C2 cdc;
     class M1,M2,M3,M4 modern;
     class D1,D2,D3,D4,D5 consumers;
+
+```
+
+## Summary
+
+This coexistence architecture enables progressive modernization of legacy core banking systems without disrupting business operations. It uses:
+
+- **CDC (Change Data Capture)** to stream real-time changes from legacy cores  
+- **Event-driven architecture** to power underwriting, servicing, fraud, and analytics  
+- **Strangler façade** to gradually shift traffic from legacy APIs to modern microservices  
+- **Dual-write and dual-read patterns** during migration  
+- **Canonical events** to unify data models across lending domains  
+
+This model was used to modernize 77+ legacy lending applications and forms the foundation for the Core Lending Modernization Patterns library.
+
