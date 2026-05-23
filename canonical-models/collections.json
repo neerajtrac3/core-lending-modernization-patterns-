@@ -1,0 +1,8 @@
+{
+  "loanId": "string",
+  "customerId": "string",
+  "delinquencyBucket": "30 | 60 | 90 | 120",
+  "collectionStatus": "Active | PromiseToPay | BrokenPromise | ChargeOff",
+  "agentId": "string",
+  "lastContactDate": "string (ISO-8601)"
+}
