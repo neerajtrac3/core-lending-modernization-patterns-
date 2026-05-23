@@ -1,0 +1,12 @@
+{
+  "loanId": "string",
+  "nextPaymentDueDate": "string (ISO-8601)",
+  "currentBalance": "number",
+  "principalBalance": "number",
+  "escrowBalance": "number",
+  "delinquencyStatus": "Current | 30 | 60 | 90 | 120 | ChargeOff",
+  "lastPayment": {
+    "amount": "number",
+    "date": "string (ISO-8601)"
+  }
+}
