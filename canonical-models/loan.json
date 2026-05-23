@@ -1,0 +1,10 @@
+{
+  "loanId": "string",
+  "productType": "Mortgage | Auto | Personal | HELOC",
+  "customerId": "string",
+  "originationDate": "string (ISO-8601)",
+  "loanAmount": "number",
+  "interestRate": "number",
+  "termMonths": "number",
+  "status": "Submitted | Approved | Funded | Active | Closed | ChargedOff"
+}
