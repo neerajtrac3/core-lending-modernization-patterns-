@@ -65,3 +65,6 @@ flowchart LR
 
 
 
+
+![Core Lending Modernization Reference](diagrams/core-lending-modernization-reference.png)
+
