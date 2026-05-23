@@ -1,1 +1,68 @@
+# Core Lending Modernization – Reference Architecture
+
+```mermaid
+flowchart LR
+
+    subgraph Channels
+        A1[Online Banking]
+        A2[Mobile App]
+        A3[Branch Systems]
+    end
+
+    subgraph API_Layer[API Gateway & Façade]
+        B1[Lending APIs]
+        B2[Origination APIs]
+        B3[Servicing APIs]
+    end
+
+    subgraph Domain_Services[Domain-Aligned Microservices]
+        C1[Loan Origination Service]
+        C2[Underwriting Service]
+        C3[Fraud & Risk Service]
+        C4[Loan Servicing Service]
+        C5[Collections Service]
+    end
+
+    subgraph Event_Backbone[Event Streaming Platform]
+        D1[(Kafka Topics)]
+        D2[(Event Schema Registry)]
+    end
+
+    subgraph Data_Layer[Data & Coexistence Layer]
+        E1[(CDC Engine)]
+        E2[(Legacy Core Banking)]
+        E3[(Operational Data Store)]
+        E4[(Analytics Platform)]
+    end
+
+    subgraph Shared_Services[Shared Capabilities]
+        F1[Identity & Access]
+        F2[Observability]
+        F3[NFR & Governance]
+    end
+
+    A1 --> B1
+    A2 --> B1
+    A3 --> B1
+
+    B1 --> C1
+    B1 --> C4
+
+    C1 --> D1
+    C2 --> D1
+    C3 --> D1
+    C4 --> D1
+
+    D1 --> C2
+    D1 --> C3
+    D1 --> C4
+
+    E2 --> E1 --> D1
+    D1 --> E3
+    D1 --> E4
+
+    C1 --> F2
+    C2 --> F2
+    C3 --> F2
+    C4 --> F2
 
