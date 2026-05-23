@@ -1,0 +1,8 @@
+{
+  "loanId": "string",
+  "customerId": "string",
+  "payoffAmount": "number",
+  "goodThroughDate": "string (ISO-8601)",
+  "feesIncluded": "boolean",
+  "status": "Requested | Generated | Completed"
+}
